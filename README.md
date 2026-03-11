@@ -108,12 +108,12 @@ Models were evaluated using:
 ### 7️⃣ Model Export
 
 The best performing model was saved using **Joblib**.
-
+```
 Saved files:
 KNN_Heart.pkl
 scaler.pkl
 columns.pkl
-
+```
 
 These files are used for prediction in the deployed application.
 
@@ -128,18 +128,20 @@ Users can enter health parameters and instantly get predictions about the likeli
 ---
 
 ## 📁 Project Structure
+
+```
 Heart-Disease-Prediction
 │
 ├── heart.csv
-├── heart.ipynb
+├── heart_disease_model.ipynb
 ├── app.py
 ├── KNN_Heart.pkl
 ├── scaler.pkl
 ├── columns.pkl
+├── screenshots
+│   └── app_screenshot.png
 └── README.md
-
-
----
+```
 
 ## 🚀 How to Run the Project
 
